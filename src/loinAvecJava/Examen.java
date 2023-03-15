@@ -14,6 +14,15 @@ public class Examen {
 	private double coeficient;
 	private Niveau nv;
 	private Groupes groupe;
+	
+	
+	
+	public Groupes getGroupe() {
+		return groupe;
+	}
+	public void setGroupe(Groupes groupe) {
+		this.groupe = groupe;
+	}
 	public String getTitre() {
 		return titre;
 	}

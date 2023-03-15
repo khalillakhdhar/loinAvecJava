@@ -1,6 +1,10 @@
 package loinAvecJava;
 
-public class Vehicule {
+public abstract class Vehicule {
+public Vehicule() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 private String marque;
 private double prix;
 private String usine;
@@ -27,6 +31,10 @@ public String getUsine() {
 }
 public void setUsine(String usine) {
 	this.usine = usine;
+}
+@Override
+public String toString() {
+	return "Vehicule [marque=" + marque + ", prix=" + prix + ", usine=" + usine + "]";
 }
 
 }
